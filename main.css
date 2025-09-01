@@ -1,0 +1,44 @@
+*,body,html{
+    height: auto;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:fixed;
+    justify-content: space-around;
+    height: 5rem;
+    width: 100%;
+    background-color:rgb(51, 50, 50);
+}
+.brandName{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+}
+
+.agency{
+    font-size: 0.6rem;
+}
+.brand{
+        color: aqua;
+        font-size: 3rem;
+        font-weight: 900;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+
